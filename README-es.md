@@ -40,7 +40,7 @@ En lugar de los selectores comunes como clase, id o atributos podemos usar `docu
 * `document.querySelectorAll` devuelve todos los elementos que cumplen con la condición en forma de NodeList. Puede ser convertido a Array usando `[].slice.call(document.querySelectorAll(selector) || []);`
 * Si ningún elemento cumple con la condición, jQuery retornaría `[]` mientras la API DOM retornaría `null`. Nótese el NullPointerException. Se puede usar `||` para establecer el valor por defecto al no encontrar elementos, como en `document.querySelectorAll(selector) || []`
 
-> Nota: document.querySelector y document.querySelectorAll son bastante LENTOS, procuree utilizar getElementById, document.getElementsByClassName o document.getElementsByTagName si desea obtener un mejor rendimiento.
+> Nota: document.querySelector y document.querySelectorAll son bastante LENTOS, procure utilizar getElementById, document.getElementsByClassName o document.getElementsByTagName si desea obtener un mejor rendimiento.
 
 - [1.0](#1.0) <a name='1.0'></a> Buscar por selector
 
